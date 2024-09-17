@@ -10,4 +10,4 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/p
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 
 cp ./zshrc.server ~/.zshrc
-sudo usermod -s $(which zsh) $USERNAME
+sudo usermod -s $(which zsh) $USER
